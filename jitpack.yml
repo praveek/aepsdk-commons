@@ -1,5 +1,5 @@
 jdk:
   - openjdk17
 install:
-   - echo "Publish aepsdk-gradle-plugin
+   - echo "Publish aepsdk-gradle-plugin"
    - ./android/aepsdk-gradle-plugin/gradlew -p ./android/aepsdk-gradle-plugin publishPluginJitpackPublicationToMavenLocal 
