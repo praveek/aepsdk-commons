@@ -85,7 +85,7 @@ internal val Project.moduleAARName: String
  */
 internal val Project.moduleAARPath: String
     get() {
-        return "${layout.buildDirectory}/${BuildConstants.Publishing.MODULE_AAR_OUTPUT_PATH}$moduleAARName"
+        return "${layout.buildDirectory.asFile.get()}/${BuildConstants.Publishing.MODULE_AAR_OUTPUT_PATH}$moduleAARName"
     }
 
 // Publishing related project extensions.
@@ -169,5 +169,5 @@ internal val Project.androidJarPath: String
 
 internal val Project.intermediatePathForAEP: String
     get() {
-        return "${layout.buildDirectory}/intermediates/javac/phoneDebug/classes/com/adobe/marketing/mobile"
+        return "${layout.buildDirectory.asFile.get()}/intermediates/javac/phoneDebug/classes/com/adobe/marketing/mobile"
     }
