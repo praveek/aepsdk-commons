@@ -253,13 +253,11 @@ class AEPLibraryPlugin : Plugin<Project> {
             add(BuildConstants.ProjectConfig.IMPLEMENTATION, BuildConstants.Dependencies.KOTLIN_STDLIB_JDK8)
 
             if (extension.compose.getOrElse(false)) {
-                // Jetpack Compose runtime
                 add(BuildConstants.ProjectConfig.IMPLEMENTATION, BuildConstants.Dependencies.COMPOSE_RUNTIME)
-                // Material UI 1.x
+                add(BuildConstants.ProjectConfig.IMPLEMENTATION, BuildConstants.Dependencies.COMPOSE_UI)
                 add(BuildConstants.ProjectConfig.IMPLEMENTATION, BuildConstants.Dependencies.COMPOSE_MATERIAL)
-                // Jetpack + Activity integration
                 add(BuildConstants.ProjectConfig.IMPLEMENTATION, BuildConstants.Dependencies.ANDROIDX_ACTIVITY_COMPOSE)
-                // Jetpack Compose tooling
+
                 add(BuildConstants.ProjectConfig.DEBUG_IMPLEMENTATION, BuildConstants.Dependencies.COMPOSE_UI_TOOLING)
 
                 add(BuildConstants.ProjectConfig.ANDROID_TEST_IMPLEMENTATION, BuildConstants.Dependencies.COMPOSE_UI_TEST_JUNIT4)

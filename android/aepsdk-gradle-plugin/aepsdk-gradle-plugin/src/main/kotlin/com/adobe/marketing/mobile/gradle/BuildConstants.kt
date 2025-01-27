@@ -44,7 +44,7 @@ object BuildConstants {
 
         const val COMPOSE_COMPILER = "1.4.6"
         const val COMPOSE = "1.4.3"
-        const val COMPOSE_MATERIAL = "1.4.3"
+        const val COMPOSE_MATERIAL = "1.2.0"
         const val ANDROIDX_ACTIVITY_COMPOSE = "1.5.0"
 
         const val ANDROIDX_APPCOMPAT = "1.0.0"
@@ -90,6 +90,7 @@ object BuildConstants {
 
         // Jetpack Compose Dependencies
         const val COMPOSE_RUNTIME = "androidx.compose.runtime:runtime:${Versions.COMPOSE}"
+        const val COMPOSE_UI = "androidx.compose.ui:ui:${Versions.COMPOSE}"
         const val COMPOSE_MATERIAL = "androidx.compose.material:material:${Versions.COMPOSE_MATERIAL}"
         const val ANDROIDX_ACTIVITY_COMPOSE = "androidx.activity:activity-compose:${Versions.ANDROIDX_ACTIVITY_COMPOSE}"
         const val COMPOSE_UI_TOOLING = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE}"

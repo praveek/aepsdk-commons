@@ -1,5 +1,5 @@
 
-val PLUGIN_VERSION = "3.0.2"
+val PLUGIN_VERSION = "3.0.3"
 
 object Plugins {
     const val ANDROID_GRADLE_PLUGIN_VERSION = "8.2.0"
