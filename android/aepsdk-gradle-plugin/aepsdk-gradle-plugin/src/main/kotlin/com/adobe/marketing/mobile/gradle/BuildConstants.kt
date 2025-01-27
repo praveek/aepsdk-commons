@@ -44,7 +44,7 @@ object BuildConstants {
 
         const val COMPOSE_COMPILER = "1.4.6"
         const val COMPOSE = "1.4.3"
-        const val COMPOSE_MATERIAL = "1.2.0"
+        const val COMPOSE_MATERIAL = "1.1.0"
         const val ANDROIDX_ACTIVITY_COMPOSE = "1.5.0"
 
         const val ANDROIDX_APPCOMPAT = "1.0.0"
